@@ -6,7 +6,7 @@ function Navigation() {
     <nav class="nav_bar">
         <div class="nav_div">
             <a href="/" class="nav_a">
-                <img src={image} class="nav_image" alt="Flowbite Logo" />
+                <img src={image} class="nav_image" alt="DetUser" />
                 <span class="nav_span">DetUser</span>
             </a>
         </div>
