@@ -12,6 +12,16 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body {
+  background-color: #443C68;
+}
+
+.container {
+  max-width: 1170px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +45,104 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nav_bar {
+  background-color: #393053; 
+  border-color: #443C68; 
+}
+
+.nav_div {
+  display: flex; 
+  padding: 1rem; 
+  margin-left: auto;
+  margin-right: auto; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  align-items: center; 
+  max-width: 1280px; 
+}
+.nav_a {
+  display: flex; 
+  align-items: center; 
+}
+.nav_image {
+  margin-right: 0.75rem;
+  height: 2rem; 
+}
+.nav_span {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem; 
+  font-weight: 600; 
+  white-space: nowrap; 
+  align-self: center; 
+
+}
+.about {
+  color: white;
+}
+.div_button {
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+}
+.main_button {
+  background-color: #635985;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 3px;
+  margin: 5px;
+  width: 150px;
+  height: 50px;
+  
+}
+.main_display {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+}
+.card_main {
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+  background-color: #635985;
+  width:550px;
+  border-radius: 10px;
+}
+.inside_card {
+  padding: 10px;
+  justify-content: baseline;
+  align-items:baseline;
+}
+.card_image {
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  box-shadow: #393053;
+  justify-content: baseline;
+}
+
+.card_text {
+  justify-content: baseline;
+  padding-right: 30px;
+}
+.div_display {
+  position:absolute;
+  top: 40%;
+  display: grid;
+  grid-template-columns:3;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
 }
